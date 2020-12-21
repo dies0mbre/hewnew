@@ -1,0 +1,275 @@
+
+body{
+    /*margin-top:20px;*/
+    /*color: #1a202c;*/
+    /*text-align: left;*/
+    /*background-color: #e2e8f0;  */
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(316.63deg, rgba(196, 196, 196, 0.46) 0%, rgba(196, 196, 196, 0) 74.63%);
+}
+
+h1{
+    font-weight: 900;
+    font-size: 40px;
+}
+
+header{
+    margin-top: 60px;
+}
+
+.main-body {
+    padding: 15px;
+}
+
+/*.nav-link {*/
+/*    color: #4a5568;*/
+/*}*/
+
+
+
+.navbar{
+    height: 70px;
+}
+
+.navbar-brand{
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+#nav__main{
+    font-weight: 700;
+}
+
+.nav-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    
+    color: #000000;
+}
+
+.btn{
+    width: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    /*display: flex;*/
+    justify-content: center;
+    color: #000;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 36px;
+
+    /*box-shadow: 0px 7px 35px rgba(147, 147, 147, 0.42);*/
+
+    margin-top: 35px;
+    margin-bottom: 91px;
+
+}
+
+#search-btn{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.avatar{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#avatar{
+    display: block;
+}
+
+.breadcramps{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+    margin-bottom: 20px;
+
+}
+
+/*.card {*/
+/*    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);*/
+/*}*/
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-top: 54px;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    /*padding: 1rem;*/
+    /*width: 351px;*/
+    height: 735px;
+    /*left: 93px;*/
+    /*top: 154px;*/
+    padding-top: 20px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+
+.ui-w-80 {
+    width: 80px !important;
+    height: auto;
+}
+
+
+.form-control {
+  padding: 10px;
+  font-size: 16px;
+  line-height: 15px;
+  color: #828282;
+  width: 77%;
+  background: #F4F8F7;
+  border-radius: 4px;
+  border-color: transparent;
+}
+
+label{
+    margin-left: 1.5%;
+}
+
+.nav-item-title{
+    margin-top: 8px !important;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    text-align: center;
+    
+}
+.nav-item-set{
+    margin-top: 15px;
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px !important;
+    line-height: 27px;
+    color: #000 !important;
+    background-color: transparent !important;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+}
+
+a.nav-item.nav-item-set.nav-link.nav-link-faded.active {
+    font-weight: 700;
+    color: #b7b7b7 !important;
+}
+
+.gutters-sm {
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+.gutters-sm>.col, .gutters-sm>[class*=col-] {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.mb-3, .my-3 {
+    margin-bottom: 1rem!important;
+}
+
+.mt-1, .my-1 {
+    margin-top: .25rem!important;
+    margin-left: 18%;
+}
+
+.bg-gray-300 {
+    background-color: #e2e8f0;
+}
+.h-100 {
+    height: 100%!important;
+}
+.shadow-none {
+    box-shadow: none!important;
+}
+
+
+.footer {
+    display: block;
+    background: #000;
+    padding:13px 0 37px;
+    margin-top: 255px;
+}
+
+.credits {
+    width: 142px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 125.4%;
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    opacity: 0.2;
+}
+
+@media screen and (max-width: 576px) {
+    
+    .navbar{
+        height: 50px;
+    }
+
+    header{
+        margin-top: 30px;
+    }
+    
+    .btn{
+        
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .row {
+        margin-left: 0%;
+        margin-right: auto;
+    }
+    
+    #avatar{
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .account-settings-fileinput{
+        width: 30%;
+        font-size: small;
+    }
+    
+    .mt-1, .my-1 {
+        margin-top: .25rem!important;
+        margin-left: 0%;
+    }
+    
+    .footer {
+    margin-top: 50px;
+}
+
+}

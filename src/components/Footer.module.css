@@ -1,0 +1,28 @@
+
+.footer {
+    display: block;
+    background: #000;
+    padding:13px 0 37px;
+    margin-top: 255px;
+  }
+  
+.credits {
+    width: 142px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 125.4%;
+
+    text-align: center;
+
+    color: #FFFFFF;
+    opacity: 0.2;
+}
+
+@media screen and (max-width: 576px) {    
+    .footer {
+    margin-top: 50px;
+    }
+}

@@ -1,0 +1,60 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(316.63deg, rgba(196, 196, 196, 0.46) 0%, rgba(196, 196, 196, 0) 74.63%);
+}
+
+h1{
+    font-weight: 900;
+    font-size: 40px;
+}
+
+header{
+    margin-top: 60px;
+}
+
+.navbar{
+    height: 70px;
+}
+
+.navbarBrand{
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+#nav__main{
+    font-weight: 700;
+    /* font-size: 18px !important; */
+    margin-left: 10px;
+}
+
+#navLink{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px !important;
+    margin-top: 3px;
+    
+    color: #7a7878;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    
+    .navbar{
+        height: 50px;
+    }
+
+    header{
+        margin-top: 30px;
+    }
+
+    .imgFluid {
+        width: 100%;
+        margin-top: 40px;
+    }
+    
+
+}

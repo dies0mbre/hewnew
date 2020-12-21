@@ -1,0 +1,12 @@
+
+#btnSpec{
+    width: 265px;
+    height: 67px;
+    left: 163px;
+    top: 461px;
+    
+  
+    background: linear-gradient(102.4deg, #767676 36.84%, #757575 74.32%);
+    box-shadow: 0px 7px 35px rgba(147, 147, 147, 0.42);
+    border-radius: 110px;
+  }
